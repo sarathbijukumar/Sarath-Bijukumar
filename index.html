@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarath Bijukumar | Inventory & Logistics Professional</title>
+    <meta name="description" content="Portfolio of Sarath Bijukumar – Inventory Management Professional, Logistics Specialist & MBA (HRM) Candidate based in Ajman, UAE.">
+    <meta name="keywords" content="Sarath Bijukumar, Inventory Management, Logistics, Warehouse, ADNOC, UAE, MBA, Storekeeper">
+    <meta name="author" content="Sarath Bijukumar">
+    <meta property="og:title" content="Sarath Bijukumar | Portfolio">
+    <meta property="og:description" content="Premium portfolio of Sarath Bijukumar – Logistics & Inventory Management Professional.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress-bar"></div>
+
+    <!-- Preloader -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-inner">
+            <div class="loader-logo">SB</div>
+            <div class="loader-line-container">
+                <div class="loader-line"></div>
+            </div>
+            <p class="loader-text">Initializing Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <header id="header">
+        <nav class="navbar container">
+            <a href="#home" class="nav-logo">SB<span class="logo-dot">.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education & Credentials</a></li>
+                <li><a href="#skills" class="nav-link">Skills & Expertise</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+                <li><a href="#portfolio" class="nav-link">Core Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ═══════════════════════════════════════
+             HERO SECTION — MINIMAL CENTER + SIDE TEXT
+        ═══════════════════════════════════════ -->
+        <section id="home" class="hero-section">
+
+            <!-- Background layers -->
+            <div class="hero-bg">
+                <div class="hero-noise"></div>
+                <div class="hero-gradient"></div>
+                <div class="hero-grid"></div>
+                <div class="hero-glow g1"></div>
+                <div class="hero-glow g2"></div>
+                <canvas id="hero-canvas"></canvas>
+            </div>
+
+            <!-- LEFT side — Open to work pill -->
+            <div class="hero-side hero-side--left">
+                <div class="side-line"></div>
+                <div class="hero-side-status s-anim" style="--d:0.5s">
+                    <span class="status-pip"></span>
+                    <span>Open to opportunities</span>
+                </div>
+                <div class="side-line"></div>
+            </div>
+
+            <!-- CENTER main content -->
+            <div class="hero-center">
+
+                <!-- Animated Emblem -->
+                <div class="hero-emblem h-anim" style="--d:0.4s">
+                    <div class="emblem-ring emblem-ring--outer"></div>
+                    <div class="emblem-ring emblem-ring--mid"></div>
+                    <div class="emblem-core">
+                        <span class="emblem-letters">SB</span>
+                        <div class="emblem-dot"></div>
+                    </div>
+                    <div class="emblem-orbit emblem-orbit--1"><span></span></div>
+                    <div class="emblem-orbit emblem-orbit--2"><span></span></div>
+                    <div class="emblem-orbit emblem-orbit--3"><span></span></div>
+                </div>
+
+                <!-- Sarath small name -->
+                <p class="hero-small-name h-anim" style="--d:0.65s">Sarath</p>
+
+                <!-- Role label -->
+                <p class="hero-role-label h-anim" style="--d:0.8s">Inventory &amp; Logistics Professional</p>
+
+                <!-- Rotating role -->
+                <div class="hero-role h-anim" style="--d:1.0s">
+                    <span class="role-dash">—</span>
+                    <div class="role-rotator">
+                        <span class="role-item ri-active">Inventory Management</span>
+                        <span class="role-item">Storekeeper · ADNOC Oasis</span>
+                        <span class="role-item">MBA (HRM) Candidate</span>
+                        <span class="role-item">Web Development Enthusiast</span>
+                    </div>
+                    <span class="role-dash">—</span>
+                </div>
+
+                <!-- Tagline -->
+                <p class="hero-tagline h-anim" style="--d:1.15s">
+                    B.Com · Logistics &amp; Warehouse Expert · Ajman, UAE
+                </p>
+
+            </div>
+
+            <!-- RIGHT side vertical text panel -->
+            <div class="hero-side hero-side--right">
+                <div class="side-line"></div>
+                <div class="side-line"></div>
+            </div>
+
+            <!-- Scroll cue -->
+            <div class="hero-scroll-cue">
+                <div class="scroll-track">
+                    <div class="scroll-thumb"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             ABOUT SECTION
+        ═══════════════════════════════════════ -->
+        <section id="about" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">01 — About Me</div>
+                <h2 class="section-title">Who I <span class="gradient-text">Am</span></h2>
+
+                <div class="about-grid">
+                    <div class="about-text-block">
+                        <p class="about-lead">
+                            I'm <strong>Sarath Bijukumar</strong>, a dedicated inventory and retail operations professional currently working with <strong>Oasis by ADNOC</strong> in the UAE.
+                        </p>
+                        <p class="about-body">
+                            With a strong foundation in B.Com (Computer Application) and an ongoing MBA in Human Resource Management, I blend academic knowledge with practical expertise in inventory control, FIFO methodology, cold chain logistics, and HSE compliance.
+                        </p>
+                        <p class="about-body">
+                            My long-term vision is to step into leadership roles in supply chain management, logistics operations, and international business environments — combining operational mastery with people management skills.
+                        </p>
+                        <div class="about-tags">
+                            <span class="atag"><i class="fa-solid fa-location-dot"></i> Ajman, UAE</span>
+                            <span class="atag"><i class="fa-solid fa-envelope"></i> sarathbijukumar10@gmail.com</span>
+                            <span class="atag"><i class="fa-solid fa-phone"></i> +971 58 875 1314</span>
+                        </div>
+                    </div>
+                    <div class="about-cards-grid">
+                        <div class="mini-card glass-card">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                            <h4>Inventory Control</h4>
+                            <p>Daily tracking, auditing & reconciliation</p>
+                        </div>
+                        <div class="mini-card glass-card">
+                            <i class="fa-solid fa-temperature-low"></i>
+                            <h4>Cold Chain</h4>
+                            <p>Chiller & freezer monitoring</p>
+                        </div>
+                        <div class="mini-card glass-card">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h4>HSE Compliance</h4>
+                            <p>Workplace safety & standards</p>
+                        </div>
+                        <div class="mini-card glass-card">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h4>Leadership</h4>
+                            <p>MBA HRM — in progress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             EXPERIENCE SECTION
+        ═══════════════════════════════════════ -->
+        <section id="experience" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">02 — Career Path</div>
+                <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+
+                <div class="exp-card glass-card">
+                    <div class="exp-header">
+                        <div class="exp-company-badge">
+                            <i class="fa-solid fa-gas-pump"></i>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-period">May 2024 – Present</span>
+                            <h3 class="exp-role">Storekeeper / Store Attendant</h3>
+                            <h4 class="exp-company">Oasis by ADNOC, UAE</h4>
+                        </div>
+                        <div class="exp-status"><span class="status-dot"></span> Current Role</div>
+                    </div>
+
+                    <p class="exp-summary">
+                        Orchestrating end-to-end inventory management and store operations at one of UAE's leading retail fuel stations, ensuring seamless supply chain flows, premium cold chain standards, and zero-variance stock control.
+                    </p>
+
+                    <div class="exp-responsibilities">
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                            <div><strong>Inventory Tracking</strong> — Daily stock monitoring and variance reconciliation</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-rotate"></i></div>
+                            <div><strong>FIFO Methodology</strong> — First-In-First-Out stock rotation implementation</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                            <div><strong>Cold Chain Logistics</strong> — Chiller/freezer monitoring & temperature logging</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                            <div><strong>Receiving & Inspection</strong> — Verifying deliveries against invoices and notes</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-hard-hat"></i></div>
+                            <div><strong>HSE Compliance</strong> — Maintaining workplace safety and hygiene standards</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-store"></i></div>
+                            <div><strong>Cross-functional Support</strong> — Coordinating with retail, café & bakery teams</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-file-excel"></i></div>
+                            <div><strong>Excel Reporting</strong> — Building inventory tracking logs and audit dashboards</div>
+                        </div>
+                        <div class="resp-item">
+                            <div class="resp-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                            <div><strong>Cycle Counting</strong> — Regular physical inventory auditing sessions</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             EDUCATION SECTION
+        ═══════════════════════════════════════ -->
+        <section id="education" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">03 — Academic Background</div>
+                <h2 class="section-title">Education & <span class="gradient-text">Credentials</span></h2>
+
+                <div class="edu-timeline">
+                    <!-- MBA -->
+                    <div class="edu-item">
+                        <div class="edu-connector">
+                            <div class="edu-node"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="edu-line"></div>
+                        </div>
+                        <div class="edu-card glass-card">
+                            <div class="edu-card-header">
+                                <span class="edu-badge pursuing">Pursuing</span>
+                                <span class="edu-year">2024 – Present</span>
+                            </div>
+                            <h3 class="edu-degree">MBA in Human Resource Management</h3>
+                            <h4 class="edu-university"><i class="fa-solid fa-building-columns"></i> Andhra University</h4>
+                            <p class="edu-desc">Focusing on strategic HRM, leadership, organizational behavior, and business strategy. Bridging operational logistics expertise with executive management knowledge.</p>
+                            <div class="edu-tags">
+                                <span>HRM</span>
+                                <span>Leadership</span>
+                                <span>Organizational Behavior</span>
+                                <span>Business Strategy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- B.Com -->
+                    <div class="edu-item">
+                        <div class="edu-connector">
+                            <div class="edu-node"><i class="fa-solid fa-award"></i></div>
+                        </div>
+                        <div class="edu-card glass-card">
+                            <div class="edu-card-header">
+                                <span class="edu-badge completed">Completed</span>
+                                <span class="edu-year">Graduated 2023</span>
+                            </div>
+                            <h3 class="edu-degree">Bachelor of Commerce (B.Com) — Computer Application</h3>
+                            <h4 class="edu-university"><i class="fa-solid fa-building-columns"></i> Mahatma Gandhi University, Kerala</h4>
+                            <p class="edu-desc">Comprehensive coursework in corporate accounting, financial analysis, computer applications in business, and commerce fundamentals. Gained strong analytical and digital tools proficiency.</p>
+                            <div class="edu-tags">
+                                <span>Accounting</span>
+                                <span>Finance</span>
+                                <span>Computer Applications</span>
+                                <span>Commerce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             SKILLS SECTION
+        ═══════════════════════════════════════ -->
+        <section id="skills" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">04 — Capabilities</div>
+                <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+
+                <div class="skills-columns">
+                    <!-- Technical Skills -->
+                    <div class="skills-group">
+                        <div class="skills-group-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Technical Skills</h3>
+                        </div>
+                        <div class="skill-cards-grid">
+                            <div class="skill-card glass-card" data-progress="90">
+                                <div class="skill-card-icon"><i class="fa-solid fa-file-excel"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Microsoft Excel</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="90"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="85">
+                                <div class="skill-card-icon"><i class="fa-solid fa-file-word"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Microsoft Word</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="85"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="78">
+                                <div class="skill-card-icon"><i class="fa-solid fa-palette"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Adobe Photoshop</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="78"></div>
+                                    </div>
+                                    <span class="skill-percent">78%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="82">
+                                <div class="skill-card-icon"><i class="fa-solid fa-calculator"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Tally</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="82"></div>
+                                    </div>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="72">
+                                <div class="skill-card-icon"><i class="fa-solid fa-code"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Web Development</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="72"></div>
+                                    </div>
+                                    <span class="skill-percent">72%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Skills -->
+                    <div class="skills-group">
+                        <div class="skills-group-header">
+                            <i class="fa-solid fa-user-tie"></i>
+                            <h3>Professional Skills</h3>
+                        </div>
+                        <div class="skill-cards-grid">
+                            <div class="skill-card glass-card" data-progress="95">
+                                <div class="skill-card-icon"><i class="fa-solid fa-boxes-packing"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Inventory Management</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="95"></div>
+                                    </div>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="90">
+                                <div class="skill-card-icon"><i class="fa-solid fa-truck-moving"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Logistics Operations</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="90"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="92">
+                                <div class="skill-card-icon"><i class="fa-solid fa-warehouse"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Warehouse Operations</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="92"></div>
+                                    </div>
+                                    <span class="skill-percent">92%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="88">
+                                <div class="skill-card-icon"><i class="fa-solid fa-people-group"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Team Collaboration</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="88"></div>
+                                    </div>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="93">
+                                <div class="skill-card-icon"><i class="fa-solid fa-comments"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Communication Skills</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="93"></div>
+                                    </div>
+                                    <span class="skill-percent">93%</span>
+                                </div>
+                            </div>
+                            <div class="skill-card glass-card" data-progress="87">
+                                <div class="skill-card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                                <div class="skill-card-body">
+                                    <h4>Problem Solving</h4>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-progress="87"></div>
+                                    </div>
+                                    <span class="skill-percent">87%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             LANGUAGES SECTION
+        ═══════════════════════════════════════ -->
+        <section id="languages" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">05 — Communication</div>
+                <h2 class="section-title">Language <span class="gradient-text">Proficiencies</span></h2>
+
+                <div class="lang-grid">
+                    <div class="lang-card glass-card" data-lang="malayalam" data-pct="100">
+                        <div class="lang-circle-wrapper">
+                            <svg class="lang-ring" viewBox="0 0 120 120">
+                                <circle class="ring-track" cx="60" cy="60" r="50"/>
+                                <circle class="ring-fill" cx="60" cy="60" r="50" data-pct="100"/>
+                            </svg>
+                            <div class="lang-letter">M</div>
+                        </div>
+                        <h4>Malayalam</h4>
+                        <span class="lang-level native">Native</span>
+                        <div class="lang-dots">
+                            <span class="ldot active"></span><span class="ldot active"></span>
+                            <span class="ldot active"></span><span class="ldot active"></span><span class="ldot active"></span>
+                        </div>
+                    </div>
+
+                    <div class="lang-card glass-card" data-lang="english" data-pct="85">
+                        <div class="lang-circle-wrapper">
+                            <svg class="lang-ring" viewBox="0 0 120 120">
+                                <circle class="ring-track" cx="60" cy="60" r="50"/>
+                                <circle class="ring-fill" cx="60" cy="60" r="50" data-pct="85"/>
+                            </svg>
+                            <div class="lang-letter">E</div>
+                        </div>
+                        <h4>English</h4>
+                        <span class="lang-level fluent">Fluent</span>
+                        <div class="lang-dots">
+                            <span class="ldot active"></span><span class="ldot active"></span>
+                            <span class="ldot active"></span><span class="ldot active"></span><span class="ldot"></span>
+                        </div>
+                    </div>
+
+                    <div class="lang-card glass-card" data-lang="hindi" data-pct="65">
+                        <div class="lang-circle-wrapper">
+                            <svg class="lang-ring" viewBox="0 0 120 120">
+                                <circle class="ring-track" cx="60" cy="60" r="50"/>
+                                <circle class="ring-fill" cx="60" cy="60" r="50" data-pct="65"/>
+                            </svg>
+                            <div class="lang-letter">H</div>
+                        </div>
+                        <h4>Hindi</h4>
+                        <span class="lang-level intermediate">Intermediate</span>
+                        <div class="lang-dots">
+                            <span class="ldot active"></span><span class="ldot active"></span>
+                            <span class="ldot active"></span><span class="ldot"></span><span class="ldot"></span>
+                        </div>
+                    </div>
+
+                    <div class="lang-card glass-card" data-lang="tamil" data-pct="60">
+                        <div class="lang-circle-wrapper">
+                            <svg class="lang-ring" viewBox="0 0 120 120">
+                                <circle class="ring-track" cx="60" cy="60" r="50"/>
+                                <circle class="ring-fill" cx="60" cy="60" r="50" data-pct="60"/>
+                            </svg>
+                            <div class="lang-letter">T</div>
+                        </div>
+                        <h4>Tamil</h4>
+                        <span class="lang-level intermediate">Intermediate</span>
+                        <div class="lang-dots">
+                            <span class="ldot active"></span><span class="ldot active"></span>
+                            <span class="ldot active"></span><span class="ldot"></span><span class="ldot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             PORTFOLIO SECTION
+        ═══════════════════════════════════════ -->
+        <section id="portfolio" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">06 — Technical Toolkit</div>
+                <h2 class="section-title">Core <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-sub">Software tools and platforms I work with professionally</p>
+
+                <div class="portfolio-grid">
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper excel">
+                            <i class="fa-solid fa-file-excel"></i>
+                        </div>
+                        <h3>Microsoft Excel</h3>
+                        <p>Advanced spreadsheet management, inventory dashboards, VLOOKUP, pivot tables, and automated reconciliation reports.</p>
+                        <div class="pf-tags">
+                            <span>Dashboards</span><span>Data Analysis</span><span>Reporting</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper word">
+                            <i class="fa-solid fa-file-word"></i>
+                        </div>
+                        <h3>Microsoft Word</h3>
+                        <p>Professional document creation, formal reports, business correspondence, templates, and structured documentation.</p>
+                        <div class="pf-tags">
+                            <span>Documentation</span><span>Reports</span><span>Templates</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper powerpoint">
+                            <i class="fa-solid fa-file-powerpoint"></i>
+                        </div>
+                        <h3>Microsoft PowerPoint</h3>
+                        <p>Compelling business presentations, operational briefings, visual storytelling, and professional slide decks.</p>
+                        <div class="pf-tags">
+                            <span>Presentations</span><span>Visual Design</span><span>Briefings</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper photoshop">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h3>Adobe Photoshop</h3>
+                        <p>Photo editing, graphic design, digital branding, creative visual assets, and image manipulation for professional use.</p>
+                        <div class="pf-tags">
+                            <span>Graphic Design</span><span>Photo Editing</span><span>Branding</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper tally">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                        <h3>Tally</h3>
+                        <p>Accounting software proficiency for financial bookkeeping, GST management, ledger maintenance, and financial reporting.</p>
+                        <div class="pf-tags">
+                            <span>Accounting</span><span>Bookkeeping</span><span>Finance</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+
+                    <div class="pf-card glass-card">
+                        <div class="pf-icon-wrapper webdev">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Website Development</h3>
+                        <p>Building modern, responsive websites using HTML5, CSS3, and JavaScript. Creating professional digital portfolios and web presence.</p>
+                        <div class="pf-tags">
+                            <span>HTML/CSS</span><span>JavaScript</span><span>Responsive</span>
+                        </div>
+                        <div class="pf-hover-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             CONTACT SECTION
+        ═══════════════════════════════════════ -->
+        <section id="contact" class="section-padding reveal-section">
+            <div class="container">
+                <div class="section-label">07 — Get In Touch</div>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                <p class="section-sub">Let's connect and discuss opportunities</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="cinfo-card glass-card">
+                            <div class="cinfo-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ajman, United Arab Emirates</p>
+                            </div>
+                        </div>
+                        <div class="cinfo-card glass-card">
+                            <div class="cinfo-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:sarathbijukumar10@gmail.com">sarathbijukumar10@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="cinfo-card glass-card">
+                            <div class="cinfo-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone / WhatsApp</h4>
+                                <p><a href="tel:+971588751314">+971 58 875 1314</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-quote glass-card">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p>"Dream Big. Work Hard. Keep Moving Forward."</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card glass-card">
+                        <form id="contact-form">
+                            <div class="form-field">
+                                <input type="text" id="f-name" required placeholder=" ">
+                                <label for="f-name">Full Name</label>
+                                <span class="field-line"></span>
+                            </div>
+                            <div class="form-field">
+                                <input type="email" id="f-email" required placeholder=" ">
+                                <label for="f-email">Email Address</label>
+                                <span class="field-line"></span>
+                            </div>
+                            <div class="form-field">
+                                <input type="text" id="f-subject" required placeholder=" ">
+                                <label for="f-subject">Subject</label>
+                                <span class="field-line"></span>
+                            </div>
+                            <div class="form-field">
+                                <textarea id="f-message" rows="5" required placeholder=" "></textarea>
+                                <label for="f-message">Your Message</label>
+                                <span class="field-line"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-logo">SB<span class="logo-dot">.</span></div>
+            <p class="footer-quote">"Operational Excellence is not a destination — it's a mindset."</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Sarath Bijukumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal-overlay">
+        <div class="modal-box glass-card">
+            <div class="modal-check"><i class="fa-solid fa-circle-check"></i></div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. Sarath will get back to you soon.</p>
+            <button class="btn btn-primary" id="close-success-modal">Close</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
